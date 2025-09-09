@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-const PRIZE_URL = 'https://yourdomain.com/prize'; // replace with your actual prize page
-const THANK_YOU_URL = 'https://yourdomain.com/thank-you'; // replace with your thank-you page
+const PRIZE_URL = 'https://www.youtube.com/watch?v=YFp8MjrfshU'; // replace with your actual prize page
+const THANK_YOU_URL = 'https://www.facebook.com/alex.tan.522804'; // replace with your thank-you page
 
 let count = 0;
 

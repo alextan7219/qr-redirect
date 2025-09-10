@@ -4,7 +4,8 @@ const fetch = require('node-fetch');
 
 const PRIZE_URL = 'https://www.youtube.com/watch?v=YFp8MjrfshU';
 const THANK_YOU_URL = 'https://www.facebook.com/alex.tan.522804';
-const FIREBASE_URL = 'https://qr-redirect-58627-default-rtdb.asia-southeast1.firebasedatabase.app/'; // replace with your actual URL
+const FIREBASE_URL = 'https://qr-redirect-58627-default-rtdb.asia-southeast1.firebasedatabase.app/scanCount.json
+'; // replace with your actual URL
 
 app.get('/', async (req, res) => {
   let count = 0;
